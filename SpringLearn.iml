@@ -27,5 +27,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="javax.inject:javax.inject:1" level="project" />
   </component>
 </module>
