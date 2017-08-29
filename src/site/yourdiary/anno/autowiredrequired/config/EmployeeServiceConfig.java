@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Configuration;
 import site.yourdiary.anno.autowiredrequired.bean.EmployeeService;
 
 @Configuration
-//@ComponentScan("site.yourdiary.required")
+//@ComponentScan("site.yourdiary.anno.required")
 public class EmployeeServiceConfig {
 
     @Bean

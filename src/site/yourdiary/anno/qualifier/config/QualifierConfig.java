@@ -8,7 +8,7 @@ import site.yourdiary.anno.qualifier.bean.MovieCatalog;
 import site.yourdiary.anno.qualifier.bean.MovieRecommender;
 
 @Configuration
-@ComponentScan("site.yourdiary.qualifier")
+@ComponentScan("site.yourdiary.anno.qualifier")
 public class QualifierConfig {
 
     @Bean

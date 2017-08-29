@@ -3,11 +3,12 @@ package site.yourdiary.anno.resource.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Primary;
 import site.yourdiary.anno.resource.bean.MovieCatalog;
 
 
 @Configuration
-@ComponentScan("site.yourdiary.resource")
+@ComponentScan("site.yourdiary.anno.resource")
 public class ResourceConfig {
 
     @Bean
@@ -19,7 +20,7 @@ public class ResourceConfig {
     }
 
     @Bean
-//    @Primary
+    @Primary
     public MovieCatalog secondMovieCatalog(){
         MovieCatalog movieCatalog = new MovieCatalog();
         movieCatalog.setId(2);

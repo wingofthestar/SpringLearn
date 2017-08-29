@@ -11,7 +11,7 @@ import site.yourdiary.anno.collection.bean.Recommender;
 
 
 @Configuration
-@ComponentScan("site.yourdiary.collection")
+@ComponentScan("site.yourdiary.anno.collection")
 public class RecommenderConfig {
 
 
