@@ -1,0 +1,1 @@
+如AutoWiredFlase.png所示，标有autowired(required = flase)的bean虽然没有被注入也被成功创建

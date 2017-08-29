@@ -11,7 +11,7 @@ import site.yourdiary.primary.bean.MovieCatalog;
 public class MovieCatalogConfig {
 
     @Bean
-//    @Primary
+    @Primary
     public MovieCatalog firstMovieCatalog(){
         MovieCatalog movieCatalog = new MovieCatalog();
         movieCatalog.setId(1);

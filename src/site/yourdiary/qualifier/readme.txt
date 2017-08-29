@@ -1,0 +1,2 @@
+如Qualifier.png，多个相同类型的Bean，只会注入对应的@Qualifier标注的名称的Bean
+如QualisierList.png,多个相同类型的Bean，会把对应的@Qualifier标注名称的多个Bean注入集合
