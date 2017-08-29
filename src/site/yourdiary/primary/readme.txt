@@ -1,0 +1,3 @@
+声明两个MovieCatalog类型的Bean
+如Primary.png所示，标记的Primary的Bean被注入
+如No_Primary.png所示，多个相同候选的类型的Bean在没有其他限制条件下会注入失败。

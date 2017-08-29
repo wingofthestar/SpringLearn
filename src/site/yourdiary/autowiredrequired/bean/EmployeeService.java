@@ -4,6 +4,7 @@ package site.yourdiary.autowiredrequired.bean;
 import org.springframework.beans.factory.annotation.Autowired;
 import site.yourdiary.autowiredrequired.pojo.Employee;
 
+
 public class EmployeeService {
     @Autowired(required = false)
     private Employee employee;
